@@ -28,7 +28,7 @@ const DashboardPage = () => {
             Search for any meal to see its calorie breakdown
           </p>
 
-          <Button onClick={() => router.push('/calories')} className="bg-black hover:bg-green-700 transition duration-300 ease-in-out cursor-pointer">
+          <Button onClick={() => router.push('/calories')} className="bg-black dark:text-white hover:bg-green-700 transition duration-300 ease-in-out cursor-pointer">
             Search Calories →
           </Button>
 

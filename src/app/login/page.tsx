@@ -16,6 +16,7 @@ export default function LoginPage() {
   const router = useRouter()
 
   useEffect(() => {
+    errorClear()
     if (token) router.replace('/dashboard')
   }, [token, router])
 
