@@ -21,7 +21,7 @@ const Navbar = () => {
     return (
         <nav className="bg-white shadow-sm px-6 py-4 flex items-center justify-between dark:bg-gray-800">
             <h1 className="text-xl font-bold text-gray-900 dark:text-white">
-                <Link href={'/dashboard'}>Meal Calorie App</Link>
+                <Link href={'/dashboard'}>CaloriCalc</Link>
             </h1>
             <div className="flex items-center gap-4">
                 <ThemeToggle />
